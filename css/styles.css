@@ -463,26 +463,96 @@ footer p {
 
 /* Mise en page adaptative */
 @media (max-width: 768px) {
+ /* Grille horaire */
     .horaire-grid {
-        grid-template-columns: 1fr 1fr; /* Réduire le nombre de colonnes */
+        grid-template-columns: 1fr 1fr 1fr; 
+        gap: 5px; 
+        font-size: 0.85em; 
     }
 
+    /* Conteneur des cours */
     .cours-container {
         flex-direction: column;
-        gap: 10px;
+        gap: 5px; 
     }
 
+    .cours {
+        padding: 1rem; 
+    }
+
+    .cours img {
+        height: 150px; 
+    }
+
+    /* Info perso*/
     .info-personnelle {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; 
+    }
+
+    .info-personnelle img.photo-profil {
+        width: 150px; 
+        height: 150px;
+        margin-bottom: 10px; 
+    }
+
+    /* cv profession et cours preferes*/
+    #cv, #professions, #cours-preferes {
+        padding: 1rem;
+        font-size: 0.9em; 
+    }
+
+    #cv h2, #professions h2, #mon-sujet h2 {
+        font-size: 1.2rem; 
+        text-align: center; 
+    }
+
+    /* Grille professions  */
+    .professions-grid {
+        grid-template-columns: 1fr; 
+        gap: 10px; 
+    }
+
+    .profession {
+        padding: 0.8rem;
+        font-size: 0.9em;
+        text-align: center;
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .profession h3 {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+        color: #007BFF;
+    }
+
+    .profession p {
+        font-size: 0.85em;
+        line-height: 1.4;
+    }
+}
+    /* Menu et navigation */
+    header {
         flex-direction: column;
         text-align: center;
     }
 
-    .info-personnelle img.photo-profil {
-        width: 200px;
-        height: 200px;
+    header nav ul {
+        flex-direction: column;
+        gap: 5px;
     }
 
-    #cv h2, #professions h2, #mon-sujet h2 {
-        font-size: 1.5rem;
+    /* Galerie d'images */
+    .grille-images {
+        grid-template-columns: 1fr; 
+        gap: 10px; 
     }
-}
+
+    .image-item img {
+        height: auto; 
+        width: 100%; 
+    }
+
