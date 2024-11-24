@@ -463,21 +463,26 @@ footer p {
 
 /* Mise en page adaptative */
 @media (max-width: 768px) {
-    main {
-        flex-direction: column;
-        padding: 1rem;
+    .horaire-grid {
+        grid-template-columns: 1fr 1fr; /* Réduire le nombre de colonnes */
     }
 
-    header {
+    .cours-container {
         flex-direction: column;
-        align-items: center;
+        gap: 10px;
     }
 
-    header h1 {
+    .info-personnelle {
+        flex-direction: column;
         text-align: center;
     }
 
-    header nav ul {
-        justify-content: center;
+    .info-personnelle img.photo-profil {
+        width: 200px;
+        height: 200px;
+    }
+
+    #cv h2, #professions h2, #mon-sujet h2 {
+        font-size: 1.5rem;
     }
 }
