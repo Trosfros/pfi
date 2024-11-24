@@ -36,7 +36,7 @@ header .logo-titre {
 }
 
 header h1 {
-    font-size: 2rem;
+    font-size: 2rem; /* j'ai essayer au plus possible d'utiliser des valeurs autres que px en utilisant rem , vh , % , em */
     margin-left: 10px;
 }
 
@@ -80,7 +80,6 @@ main {
     background-color: #fff;
     padding: 2rem;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* new*/
     max-width: 800px;
     width: 100%;
 }
@@ -107,7 +106,6 @@ main {
 
 #cv ul {
     list-style: none;
-    padding: 0;
 }
 
 #cv ul li {
@@ -166,7 +164,7 @@ main {
 }
 
 .horaire-cell {
-    background-color: #ffffff;
+    background-color: white;
     padding: 10px;
     text-align: center;
     border: 1px solid #ddd;
@@ -181,7 +179,7 @@ main {
 /* Section des cours préférés */
 #cours-preferes {
     margin-top: 2rem;
-    background-color: #fff;
+    background-color: white;
     padding: 2rem;
     border-radius: 8px;
     text-align: center;
@@ -221,7 +219,7 @@ main {
 
 /* Section des professions */
 #professions {
-    background-color: #fff;
+    background-color: white;
     padding: 2rem;
     border-radius: 8px;
     margin-top: 2rem;
@@ -279,7 +277,7 @@ main {
 
 /* Sujet du jeu Rise of Kingdoms */
 #mon-sujet {
-    background: #fff;
+    background: white;
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -307,7 +305,7 @@ main {
 
 #mon-sujet p, #mon-sujet li {
     font-size: 1rem;
-    color: #636262;
+    color: gray;
     margin-bottom: 1rem;
 }
 
@@ -363,7 +361,7 @@ figure figcaption {
 }
 
 .image-item {
-    background: #ffffff;
+    background: white;
 }
 
 .image-item img {
@@ -434,7 +432,7 @@ figure figcaption {
 /* Footer */
 footer {
     background-color: #333;
-    color: #fff;
+    color: white;
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
