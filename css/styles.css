@@ -77,7 +77,7 @@ main {
 
 /* Section CV */
 #cv {
-    background-color: #fff;
+    background-color: #fff; /* contour */
     padding: 2rem;
     border-radius: 8px;
     max-width: 800px;
@@ -99,13 +99,13 @@ main {
     font-size: 1.5rem;
     color: #555;
     margin-bottom: 1rem;
-    border-bottom: 2px solid #00bfff;
+    border-bottom: 2px solid #00bfff; 
     display: inline-block;
     padding-bottom: 0.2rem;
 }
 
 #cv ul {
-    list-style: none;
+    list-style: none; /* pas de style pour la liste */
 }
 
 #cv ul li {
@@ -134,7 +134,7 @@ main {
 .info-personnelle {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; /* centré */
 }
 
 .info-personnelle img.photo-profil {
@@ -142,7 +142,7 @@ main {
     height: 300px;
     border-radius: 50%; 
     object-fit: cover;
-    border: 2px solid #00bfff;
+    border: 2px solid #00bfff; /* ligne bleu séparation style */
 }
 
 /* Mise en forme de la grille */
@@ -182,7 +182,7 @@ main {
     background-color: white;
     padding: 2rem;
     border-radius: 8px;
-    text-align: center;
+    text-align: center; /* centrer */
 }
 
 #cours-preferes h2 {
@@ -199,7 +199,7 @@ main {
 }
 
 .cours {
-    background-color: #fffafa;
+    background-color: #fffafa; 
     border-radius: 8px;
     max-width: 400px;
     text-align: left;
@@ -221,7 +221,7 @@ main {
 #professions {
     background-color: white;
     padding: 2rem;
-    border-radius: 8px;
+    border-radius: 8px; /* image ronde */
     margin-top: 2rem;
 }
 
@@ -235,7 +235,7 @@ main {
 /* Grille des professions */
 .professions-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* 5 colonnes */
     gap: 20px;
 }
 
@@ -268,11 +268,11 @@ main {
 /* Lien source des informations */
 #professions a {
     color: #00bfff;
-    text-decoration: none;
+    text-decoration: none; /* no deco */
 }
 
 #professions a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* souli*/
 }
 
 /* Sujet du jeu Rise of Kingdoms */
@@ -311,7 +311,7 @@ main {
 
 #mon-sujet ul {
     list-style: none;
-    padding: 0;
+                      /* pas de padding */
     padding-left: 20px;
 }
 
@@ -331,9 +331,9 @@ figure {
 }
 
 figure img {
-    width: 100%;
+    width: 100%; /* toute l'image */
     max-width: 600px;
-    border-radius: 8px;
+    border-radius: 8px; /* cont */
 }
 
 figure figcaption {
@@ -356,7 +356,7 @@ figure figcaption {
 /* Grille des images */
 .grille-images {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr); /* repeat colonne*/
     gap: 20px;
 }
 
@@ -387,9 +387,9 @@ figure figcaption {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* ombre style (new) */
     padding: 12px 16px;
-    z-index: 1;
+    z-index: 1; /* new */
   }
   
   .dropdown:hover .dropdown-content {
@@ -399,7 +399,7 @@ figure figcaption {
   /* Grille pour les explications des balises */
   .liste-explications {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr); /* colonne 2 */
     gap: 2rem;  
   }
   
@@ -426,7 +426,7 @@ figure figcaption {
     margin: 10px;
     padding: 1rem;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgb(10, 187, 231);
+    box-shadow: 0 2px 5px rgb(10, 187, 231); /* ombre bleu */
 }
 
 /* Footer */
@@ -437,7 +437,7 @@ footer {
     padding: 1rem;
     margin-top: 2rem;
     font-size: 0.9rem;
-    position: relative;
+    position: relative; /* new */ 
 }
 
 footer a {
