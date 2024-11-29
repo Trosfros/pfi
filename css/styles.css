@@ -460,7 +460,7 @@ footer p {
 }
 
 /* Mise en page adaptative */
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
  /* Grille horaire */
     .horaire-grid {
         grid-template-columns: 1fr 1fr 1fr; 
