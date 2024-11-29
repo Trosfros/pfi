@@ -310,8 +310,7 @@ main {
 }
 
 #mon-sujet ul {
-    list-style: none;
-                      /* pas de padding */
+    list-style: none;      
     padding-left: 20px;
 }
 
